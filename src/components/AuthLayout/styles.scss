@@ -1,0 +1,13 @@
+@import "../../globalStyles/main.scss";
+.auth-layout {
+	height: 100vh;
+	.auth-layout-row {
+		height: 100%;
+		.auth-form-wrap {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@import "../../globalStyles/main.scss";
+
+.component-heading-wrapper {
+	margin-bottom: 20px;
+}
+
+.component-heading-title {
+	font-family: "Sk-Modernist";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 34px;
+	color: $textColor;
+}
+
+.component-heading-icon {
+	cursor: pointer;
+}

@@ -1,0 +1,92 @@
+@import "../../globalStyles/main.scss";
+.register-page-form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	max-width: 480px;
+	&-title {
+		font-family: "Sk-Modernist";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 150%;
+		letter-spacing: -0.03em;
+		color: $darkBlack;
+		white-space: pre-line;
+		margin-bottom: 32px;
+	}
+	&-title2 {
+		font-family: "Sk-Modernist";
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; /* 171.429% */
+		text-align: start;
+		margin-top: 16px;
+	}
+	.ant-form-item {
+		margin-bottom: 24px;
+		.ant-form-item-label {
+			padding-bottom: 2px;
+			label {
+				font-family: "Sk-Modernist";
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 16px; /* 133.333% */
+			}
+		}
+	}
+	.ant-checkbox-wrapper-in-form-item {
+		float: left;
+	}
+	.login-page-logo {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin-bottom: 30px;
+	}
+	.login-page-form-signin-buttons {
+		font-family: "Sk-Modernist";
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: "16px";
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.login-form-button {
+		width: 232px;
+		height: 48px;
+		border-radius: 16px;
+		background-color: $secondaryColor;
+		border: none;
+	}
+	.login-form-button-name {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		color: $textColor;
+	}
+	.login-form-button-login {
+		width: 480px;
+		height: 56px;
+	}
+	.forgot-link {
+		float: right;
+	}
+	.register-form-button {
+		width: 480px;
+		height: 56px;
+		background-color: #2772f0;
+	}
+	.register-line {
+		text-align: start;
+	}
+	@media screen and (max-width: 767px) {
+		width: 100%;
+		&-title {
+			font-size: 24px;
+		}
+	}
+}

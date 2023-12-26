@@ -1,0 +1,47 @@
+@import "../../globalStyles/main.scss";
+.dashboard-my-team-wrapper {
+	width: 334px;
+	height: 204px;
+	background-color: white;
+	border-radius: 16px;
+	padding: 32px;
+}
+
+.dashboard-my-team-card {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+}
+.dashboard-my-team-name {
+	font-family: "Sk-Modernist";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+}
+.dashboard-my-team-members {
+	color: $textColor;
+	font-family: "Sk-Modernist";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	opacity: 0.4;
+}
+.dashboard-my-team-threedot {
+	margin-left: auto;
+	cursor: pointer;
+}
+.dashboard-my-team-avatars {
+	width: 270px;
+	height: 60px;
+	background-color: $secondaryColor;
+
+	margin-top: 35px;
+	border-radius: 10px;
+	padding: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

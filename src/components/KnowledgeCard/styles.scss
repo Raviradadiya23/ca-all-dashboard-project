@@ -1,0 +1,108 @@
+@import "../../globalStyles/main.scss";
+
+.knowledge-card-wrapper-1 {
+	width: 488px;
+	height: 278px;
+	background: rgba(#e6521f, 0.1);
+	border-radius: 24px;
+	padding: 40px;
+}
+.knowledge-card-wrapper-2 {
+	width: 488px;
+	height: 278px;
+	background-color: $secondaryColor;
+	border-radius: 24px;
+	padding: 40px;
+}
+.knowledge-card-wrapper-3 {
+	width: 488px;
+	height: 278px;
+	background: rgba(#4b9f47, 0.1);
+	border-radius: 24px;
+	padding: 40px;
+}
+.knowledge-card-wrapper-4 {
+	width: 488px;
+	height: 278px;
+	background: rgba(#e6521f, 0.1);
+	border-radius: 24px;
+	padding: 40px;
+}
+
+.knowledge-card-name {
+	color: $textColor;
+	font-family: "Sk-Modernist";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 34px;
+	margin-bottom: 8px;
+}
+.knowledge-card-subname {
+	margin-bottom: 24px;
+}
+.knowledge-card-subname-date {
+	color: rgba(9, 27, 61, 0.4);
+	font-family: "Sk-Modernist";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+}
+.knowledge-card-subname-user {
+	color: #2772f0;
+	font-family: "Sk-Modernist";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+}
+.knowledge-card-description {
+	color: $textColor;
+	font-family: "Sk-Modernist";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.knowledge-card-tags {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px;
+}
+.knowledge-card-tag1 {
+	display: inline-flex;
+	padding: 5px 8px;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 8px;
+	color: $white;
+	font-family: "Sk-Modernist";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+}
+.knowledge-card-tag2 {
+	display: inline-flex;
+	padding: 5px 8px;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 8px;
+	background: rgba(9, 27, 61, 0.1);
+	color: $textColor;
+	font-family: "Sk-Modernist";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+}
+.knowledge-card-buttons {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-left: auto;
+	cursor: pointer;
+}

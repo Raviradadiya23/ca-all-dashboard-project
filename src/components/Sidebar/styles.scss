@@ -1,0 +1,119 @@
+@import "../../globalStyles/main.scss";
+.root {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: $white;
+	height: 100vh;
+	position: relative;
+
+	.side-bar-logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		padding: 30px 0;
+	}
+	.side-bar-user-profile {
+		width: 192px;
+		height: 162px;
+		border-radius: 16px;
+		background-color: $secondaryColor;
+		text-align: center;
+	}
+	.avatar-image {
+		width: 56px;
+		height: 56px;
+		margin-top: 16px;
+	}
+	.avatar-name {
+		color: $textColor;
+		text-align: center;
+		font-family: "Sk-Modernist";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 16px;
+	}
+	.avatar-designation {
+		color: $textColor;
+		text-align: center;
+		font-family: "Sk-Modernist";
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 6px;
+		opacity: 0.4;
+	}
+	.side-bar-menu {
+		border: none;
+		border-inline-end: none;
+		text-align: left;
+		margin-top: 24px;
+	}
+	.side-bar-menu-option {
+		width: 80%;
+		height: 40px;
+	}
+	.ant-menu-item {
+		padding-inline: unset;
+	}
+	.side-bar-menu-name {
+		font-family: "Sk-Modernist";
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+	}
+	.side-bar-footer {
+		position: absolute;
+		bottom: 20px;
+	}
+	.side-bar-footer-heading {
+		font-family: "Sk-Modernist";
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 28px;
+		text-align: left;
+	}
+	.side-bar-footer-company {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 16px;
+		width: 192px;
+		height: 80px;
+		background-color: $secondaryColor;
+		margin-bottom: 10px;
+		border-radius: 16px;
+		padding: 20px;
+	}
+	.side-bar-footer-company-name {
+		font-family: "Sk-Modernist";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 26px;
+	}
+	.side-bar-footer-company-members {
+		color: $textColor;
+		font-family: "Sk-Modernist";
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 16px;
+		opacity: 0.4;
+	}
+	.side-bar-footer-button {
+		text-align: center;
+		font-family: "Sk-Modernist";
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		width: 192px;
+		height: 56px;
+		border-radius: 16px;
+		border: 1px solid;
+		color: #2772f0;
+	}
+}

@@ -1,0 +1,53 @@
+@import "../../globalStyles/main.scss";
+
+.education-filter-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 16px;
+	margin-bottom: 30px;
+}
+.education-filter-select {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 8px;
+	height: 40px;
+	border-radius: 16px;
+	background-color: $secondaryColor;
+	gap: 16px;
+}
+.education-filter-title {
+	color: $textColor;
+	font-family: "Sk-Modernist";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	opacity: 0.4;
+}
+.education-filter-option {
+	color: $textColor;
+	font-family: "Sk-Modernist";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+}
+.education-filter-right-side {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-left: auto;
+	gap: 16px;
+}
+.education-filter-application-icon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	padding: 2.15px 2.152px 2.152px 2.15px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 16px;
+	background: #f5b544;
+}

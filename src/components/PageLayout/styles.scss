@@ -1,0 +1,16 @@
+@import "../../globalStyles/main.scss";
+
+.page-layout {
+	background-color: $secondaryColor;
+
+	.ant-layout-sider {
+		background-color: white;
+	}
+	.page-layout {
+		background-color: $secondaryColor;
+	}
+	.content-layout {
+		padding: 50px;
+		background-color: $secondaryColor;
+	}
+}

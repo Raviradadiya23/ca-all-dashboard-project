@@ -1,0 +1,15 @@
+@import "../../globalStyles/main.scss";
+
+.knowledge-card-main-wrapper {
+	border-radius: 16px;
+	background: $white;
+	padding: 32px;
+	width: 100%;
+}
+
+.knowledge-card-main-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}

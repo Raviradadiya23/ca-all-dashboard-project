@@ -1,0 +1,51 @@
+@import "../../globalStyles/main.scss";
+
+.app-header {
+	background-color: $secondaryColor;
+	display: "flex";
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: unset;
+	margin-top: 20px;
+	.ant-layout-header {
+		height: auto;
+	}
+	.app-header-searchbar {
+		width: 295px;
+		height: 56px;
+		border-radius: 16px;
+		color: rgba($textColor, 0.4);
+		font-family: "Sk-Modernist";
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px;
+	}
+	.app-header-right-space {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		margin-left: auto;
+	}
+	.app-header-right-icon {
+		display: flex;
+		width: 56px;
+		height: 56px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 16px;
+		background: rgba(245, 181, 68, 0.1);
+	}
+	.app-header-right-button {
+		width: 162px;
+		height: 56px;
+		color: $white;
+		text-align: center;
+		font-family: "Sk-Modernist";
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px;
+		border-radius: 16px;
+	}
+}
